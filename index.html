@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div id="main-div">
+            <div id="add-new-note-div">
+                <input type="text" name="" id="add-new-note-input" placeholder="add new note">
+                <button id="add-new-note-button" onclick="add()">add</button>
+            </div>
+
+            <div id="edit-notes-div">
+                <h2 id="edit-note-h2">Set the new content</h2>
+                <input id="edit-note-input" type="text">
+                <button id="edit-note-button2">edit</button>
+            </div>
+            <div id="all-notes-div">
+                <h2 id="all-notes-h2"></h2>
+                <ul id="all-notes-ul"></ul>
+            </div>
+
+            <div id="done-notes-div">
+                <h2 id="done-notes-h2"></h2>
+                <ul id="all-done-notes-ul"></ul>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./index.js"></script>
+</html>
